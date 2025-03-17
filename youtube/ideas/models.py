@@ -24,4 +24,4 @@ class Vote(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
-        return self.idea.title
+        return self.reason
